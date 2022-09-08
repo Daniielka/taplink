@@ -1,6 +1,33 @@
 body {
   background-color: #F5F5F5;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
 }
 * {
   box-sizing:border-box; 
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  background: #ECECEC;
+ box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+ border-radius: 20px;
+}
+.header {
+  color: #fff;
+  padding: 40px 42px 145px;
+  background: linear-gradient(0deg, rgba(96, 96, 96, 0.2), rgba(96, 96, 96, 0.2)), url('../img/b658f8fb57165f3bcaf2d403725420c1.png') no-repeat center / cover;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 70px 70px;
+}
+.hello {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
